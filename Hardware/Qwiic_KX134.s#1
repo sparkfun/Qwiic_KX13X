@@ -11240,7 +11240,7 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 <sheets>
 <sheet>
 <plain>
-<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">v01</text>
+<text x="237.744" y="7.366" size="2.54" layer="94" font="vector">v10</text>
 <text x="170.18" y="109.22" size="1.778" layer="97" font="vector" align="center">7-bit unshifted I2C address: 0x1F (default)</text>
 <text x="46.228" y="129.286" size="1.778" layer="97" font="vector">Power</text>
 <wire x1="0" y1="68.58" x2="81.28" y2="68.58" width="0.2032" layer="97" style="longdash"/>

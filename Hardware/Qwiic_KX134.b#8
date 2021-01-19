@@ -20,7 +20,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -198,6 +198,14 @@
 <dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="30.48" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="12.7" y="35.56" size="1.778" layer="47" font="vector" ratio="15" align="center">Dimensions in inches</text>
 <text x="13.97" y="-7.62" size="1.778" layer="51" font="vector" ratio="10">Andy England</text>
+<wire x1="19.05" y1="17.78" x2="19.431" y2="18.161" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="17.78" x2="19.431" y2="17.399" width="0.2032" layer="21"/>
+<wire x1="20.32" y1="18.288" x2="20.32" y2="19.05" width="0.2032" layer="21"/>
+<wire x1="20.32" y1="19.05" x2="20.701" y2="18.669" width="0.2032" layer="21"/>
+<wire x1="20.32" y1="19.05" x2="19.939" y2="18.669" width="0.2032" layer="21"/>
+<circle x="20.32" y="17.78" radius="0.457903125" width="0.2032" layer="21"/>
+<circle x="20.32" y="17.78" radius="0.0762" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="17.78" x2="19.812" y2="17.78" width="0.2032" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -5300,6 +5308,112 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 <vertex x="16.57" y="0.14"/>
 </polygon>
 </package>
+<package name="X0">
+<polygon width="0.01" layer="21">
+<vertex x="1.21" y="-0.12"/>
+<vertex x="1.35" y="0.02"/>
+<vertex x="1.39" y="0.08"/>
+<vertex x="1.39" y="0.14"/>
+<vertex x="1.33" y="0.2"/>
+<vertex x="1.28" y="0.23"/>
+<vertex x="1.22" y="0.21"/>
+<vertex x="1.17" y="0.16"/>
+<vertex x="1.07" y="0.06"/>
+<vertex x="1.03" y="0.06"/>
+<vertex x="0.93" y="0.15"/>
+<vertex x="0.87" y="0.21"/>
+<vertex x="0.82" y="0.23"/>
+<vertex x="0.77" y="0.2"/>
+<vertex x="0.71" y="0.14"/>
+<vertex x="0.7" y="0.09"/>
+<vertex x="0.74" y="0.03"/>
+<vertex x="0.88" y="-0.12"/>
+<vertex x="0.84" y="-0.17"/>
+<vertex x="0.75" y="-0.27"/>
+<vertex x="0.7" y="-0.33"/>
+<vertex x="0.7" y="-0.38"/>
+<vertex x="0.76" y="-0.44"/>
+<vertex x="0.81" y="-0.47"/>
+<vertex x="0.87" y="-0.46"/>
+<vertex x="0.92" y="-0.41"/>
+<vertex x="1.02" y="-0.31"/>
+<vertex x="1.07" y="-0.31"/>
+<vertex x="1.17" y="-0.4"/>
+<vertex x="1.22" y="-0.45"/>
+<vertex x="1.28" y="-0.47"/>
+<vertex x="1.33" y="-0.44"/>
+<vertex x="1.39" y="-0.38"/>
+<vertex x="1.39" y="-0.33"/>
+<vertex x="1.35" y="-0.27"/>
+</polygon>
+</package>
+<package name="Y0">
+<polygon width="0.01" layer="21">
+<vertex x="1.37" y="0.22"/>
+<vertex x="1.3" y="0.24"/>
+<vertex x="1.25" y="0.21"/>
+<vertex x="1.22" y="0.18"/>
+<vertex x="1.2" y="0.12"/>
+<vertex x="1.11" y="-0.06"/>
+<vertex x="1.09" y="-0.11"/>
+<vertex x="1.07" y="-0.09"/>
+<vertex x="1.01" y="0.03"/>
+<vertex x="0.9" y="0.21"/>
+<vertex x="0.85" y="0.24"/>
+<vertex x="0.79" y="0.22"/>
+<vertex x="0.72" y="0.18"/>
+<vertex x="0.7" y="0.13"/>
+<vertex x="0.73" y="0.06"/>
+<vertex x="0.96" y="-0.34"/>
+<vertex x="0.96" y="-0.42"/>
+<vertex x="0.88" y="-0.58"/>
+<vertex x="0.86" y="-0.63"/>
+<vertex x="0.85" y="-0.66"/>
+<vertex x="0.87" y="-0.7"/>
+<vertex x="0.93" y="-0.74"/>
+<vertex x="1" y="-0.77"/>
+<vertex x="1.06" y="-0.74"/>
+<vertex x="1.09" y="-0.68"/>
+<vertex x="1.42" y="0.05"/>
+<vertex x="1.44" y="0.12"/>
+<vertex x="1.43" y="0.17"/>
+</polygon>
+</package>
+<package name="Z0">
+<polygon width="0.01" layer="21">
+<vertex x="1.07" y="-0.24"/>
+<vertex x="1.31" y="-0.03"/>
+<vertex x="1.34" y="0"/>
+<vertex x="1.37" y="0.03"/>
+<vertex x="1.39" y="0.09"/>
+<vertex x="1.37" y="0.16"/>
+<vertex x="1.32" y="0.2"/>
+<vertex x="1.25" y="0.21"/>
+<vertex x="0.85" y="0.21"/>
+<vertex x="0.78" y="0.2"/>
+<vertex x="0.74" y="0.15"/>
+<vertex x="0.74" y="0.08"/>
+<vertex x="0.75" y="0.01"/>
+<vertex x="0.8" y="-0.01"/>
+<vertex x="0.88" y="-0.01"/>
+<vertex x="1.02" y="-0.01"/>
+<vertex x="1.01" y="-0.04"/>
+<vertex x="0.95" y="-0.09"/>
+<vertex x="0.79" y="-0.23"/>
+<vertex x="0.75" y="-0.27"/>
+<vertex x="0.71" y="-0.33"/>
+<vertex x="0.72" y="-0.4"/>
+<vertex x="0.76" y="-0.45"/>
+<vertex x="0.82" y="-0.47"/>
+<vertex x="1.29" y="-0.47"/>
+<vertex x="1.36" y="-0.47"/>
+<vertex x="1.4" y="-0.42"/>
+<vertex x="1.41" y="-0.35"/>
+<vertex x="1.39" y="-0.28"/>
+<vertex x="1.35" y="-0.25"/>
+<vertex x="1.27" y="-0.24"/>
+</polygon>
+</package>
 </packages>
 </library>
 </libraries>
@@ -5554,7 +5668,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="12.7" y="16.637" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="U$15" library="SparkFun-Buzzard" package="I2C" value="" x="14.605" y="15.875" smashed="yes" rot="MR0"/>
-<element name="U$16" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="" x="22.352" y="17.399" smashed="yes"/>
+<element name="U$16" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="" x="2.667" y="7.747" smashed="yes"/>
 <element name="U$17" library="SparkFun-Buzzard" package="PWR_TO" value="" x="3.81" y="19.812" smashed="yes"/>
 <element name="U1" library="KX134" package="KX134" value="KX134" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="12.7" y="14.4" size="0.6096" layer="25" font="vector" ratio="20" align="center"/>
@@ -5607,6 +5721,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$25" library="output" package="#SCLK#0" value="" x="10.16" y="1.778" smashed="yes" rot="MR90"/>
 <element name="U$26" library="output" package="#SDO#0" value="" x="12.7" y="1.778" smashed="yes" rot="MR90"/>
 <element name="U$27" library="output" package="KX134_ACCELEROMETER0" value="" x="21.59" y="12.7" smashed="yes" rot="MR0"/>
+<element name="U$28" library="output" package="X0" value="" x="19.304" y="19.685" smashed="yes"/>
+<element name="U$29" library="output" package="Y0" value="" x="17.399" y="18.034" smashed="yes"/>
+<element name="U$30" library="output" package="Z0" value="" x="20.32" y="17.907" smashed="yes"/>
 </elements>
 <signals>
 <signal name="3.3V">

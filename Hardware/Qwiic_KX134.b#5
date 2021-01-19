@@ -193,7 +193,7 @@
 <wire x1="25.4" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
 <text x="1.27" y="12.827" size="1.27" layer="16" font="vector" ratio="15" rot="MR90" align="center">v01</text>
 <dimension x1="0" y1="0" x2="0" y2="25.4" x3="-5.08" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="2.54" y1="22.86" x2="2.54" y2="0" x3="-1.27" y3="11.43" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="2.54" y1="22.86" x2="2.54" y2="2.54" x3="-1.27" y3="12.7" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="2.54" y1="22.86" x2="22.86" y2="22.86" x3="12.7" y3="26.67" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="30.48" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="12.7" y="35.56" size="1.778" layer="47" font="vector" ratio="15" align="center">Dimensions in inches</text>
@@ -5325,7 +5325,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="24.257" y="18.415" extent="1-16" drill="0.381"/>
 <via x="19.939" y="15.494" extent="1-16" drill="0.381"/>
 <via x="2.921" y="8.255" extent="1-16" drill="0.381"/>
-<via x="8.128" y="9.398" extent="1-16" drill="0.381"/>
+<via x="8.7884" y="10.668" extent="1-16" drill="0.381"/>
 <via x="5.715" y="9.017" extent="1-16" drill="0.381"/>
 <via x="0.762" y="6.731" extent="1-16" drill="0.381"/>
 <via x="19.812" y="17.78" extent="1-16" drill="0.381"/>
@@ -5481,15 +5481,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.446" y1="11.303" x2="12.446" y2="11.9335" width="0.2032" layer="1"/>
 <wire x1="12.446" y1="11.9335" x2="12.45" y2="11.9375" width="0.2032" layer="1"/>
 <wire x1="20.32" y1="13.2" x2="18.407" y2="13.2" width="0.2032" layer="1"/>
-<wire x1="3.429" y1="9.271" x2="3.81" y2="8.89" width="0.2032" layer="1"/>
-<wire x1="3.81" y1="8.89" x2="4.699" y2="8.89" width="0.2032" layer="1"/>
-<wire x1="4.699" y1="8.89" x2="5.08" y2="8.509" width="0.2032" layer="1"/>
-<wire x1="5.08" y1="6.858" x2="5.588" y2="6.35" width="0.2032" layer="1"/>
-<wire x1="5.08" y1="8.509" x2="5.08" y2="6.858" width="0.2032" layer="1"/>
+<wire x1="3.429" y1="9.271" x2="6.35" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="12.192" y1="6.35" x2="12.7" y2="6.858" width="0.2032" layer="1"/>
 <wire x1="12.7" y1="11.049" x2="12.7" y2="9.398" width="0.2032" layer="1"/>
 <wire x1="12.7" y1="9.398" x2="12.7" y2="6.858" width="0.2032" layer="1"/>
-<wire x1="5.588" y1="6.35" x2="11.43" y2="6.35" width="0.2032" layer="1"/>
+<wire x1="6.35" y1="6.35" x2="11.43" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="11.43" y1="6.35" x2="12.192" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="11.43" y1="1.27" x2="11.43" y2="6.35" width="0.2032" layer="1"/>
 <wire x1="14.478" y1="9.398" x2="12.7" y2="9.398" width="0.2032" layer="1"/>
@@ -5532,7 +5528,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,ca90da4916ed30e5"/>
 <approved hash="19,1,a0496c6662fe8b59"/>
 <approved hash="19,16,9241d6df8a5c1a29"/>
-<approved hash="19,16,b76bd2ee5d9829aa"/>
+<approved hash="19,16,8e6a28ee8dd9d5ea"/>
+<approved hash="23,1,8c22ce83e17a68e0"/>
+<approved hash="23,1,9a2ddeac9b2906eb"/>
 </errors>
 </board>
 </drawing>

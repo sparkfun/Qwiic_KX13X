@@ -11259,14 +11259,10 @@ FIFO buffer control.</text>
 <wire x1="137.16" y1="132.08" x2="137.16" y2="129.54" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="129.54" x2="137.16" y2="127" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="127" x2="137.16" y2="124.46" width="0.1524" layer="97"/>
-<wire x1="137.16" y1="124.46" x2="137.16" y2="121.92" width="0.1524" layer="97"/>
-<wire x1="137.16" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="97"/>
-<wire x1="121.92" y1="121.92" x2="121.92" y2="124.46" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="127" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="127" x2="121.92" y2="129.54" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="129.54" x2="121.92" y2="132.08" width="0.1524" layer="97"/>
-<wire x1="129.54" y1="132.08" x2="129.54" y2="121.92" width="0.1524" layer="97"/>
+<wire x1="129.54" y1="132.08" x2="129.54" y2="124.46" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="127" x2="137.16" y2="127" width="0.1524" layer="97"/>
 <wire x1="121.92" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="97"/>
@@ -11275,9 +11271,7 @@ FIFO buffer control.</text>
 <text x="122.682" y="127.762" size="1.27" layer="97" font="vector">3.3V</text>
 <text x="130.302" y="127.762" size="1.27" layer="97" font="vector">0x1F</text>
 <text x="130.302" y="125.222" size="1.27" layer="97" font="vector">0x1E</text>
-<text x="130.302" y="122.682" size="1.27" layer="97" font="vector">SDO</text>
 <text x="122.682" y="125.222" size="1.27" layer="97" font="vector">GND</text>
-<text x="122.682" y="122.682" size="1.27" layer="97" font="vector">NC</text>
 <wire x1="81.28" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="97" style="longdash"/>
 <wire x1="83.82" y1="68.58" x2="83.82" y2="185.42" width="0.1524" layer="97" style="longdash"/>
 <text x="86.36" y="180.34" size="2.54" layer="94" font="vector">KX134 Accelerometer</text>
