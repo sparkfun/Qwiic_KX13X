@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -114,22 +114,23 @@ engine. The KX134-1211 accelerometer also features an advanced Wake-Up and
 Back-to-Sleep detection with a high-resolution threshold capability configurable
 down to 15.6 mg, 512-byte buffer that continues to record data even when being
 read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM, and Free fall detection.&lt;/p&gt;</description>
-<pin name="ADDR/SDO" x="-15.24" y="2.54" length="short"/>
+<pin name="ADR/SDO" x="-15.24" y="2.54" length="short"/>
 <pin name="SDA/SDI" x="-15.24" y="-2.54" length="short"/>
 <pin name="SCL/SCLK" x="-15.24" y="0" length="short"/>
-<pin name="!CS" x="-15.24" y="5.08" length="short"/>
-<pin name="VDD" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="!CS" x="-15.24" y="7.62" length="short"/>
+<pin name="VDD" x="15.24" y="7.62" length="short" rot="R180"/>
 <pin name="GND" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="TRIG" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="INT2" x="15.24" y="0" length="short" rot="R180"/>
 <pin name="INT1" x="15.24" y="2.54" length="short" rot="R180"/>
 <pin name="NC" x="-15.24" y="-5.08" length="short" direction="nc"/>
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="8.128" size="1.778" layer="95" font="vector">&gt;Name</text>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<text x="-12.7" y="10.668" size="1.778" layer="95" font="vector">&gt;Name</text>
 <text x="-12.7" y="-10.16" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="VDDIO" x="15.24" y="5.08" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -149,7 +150,7 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 <device name="" package="KX134">
 <connects>
 <connect gate="G$1" pin="!CS" pad="10"/>
-<connect gate="G$1" pin="ADDR/SDO" pad="1"/>
+<connect gate="G$1" pin="ADR/SDO" pad="1"/>
 <connect gate="G$1" pin="GND" pad="8 9"/>
 <connect gate="G$1" pin="INT1" pad="5"/>
 <connect gate="G$1" pin="INT2" pad="6"/>

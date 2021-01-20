@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -186,7 +186,7 @@
 </layers>
 <library>
 <packages>
-<package name="KX134">
+<package name="KX13X">
 <description>&lt;h3&gt;Kionix KX134 Tri-Axis Accelerometer&lt;/h3&gt;
 &lt;p&gt;The KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined
 accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP)
@@ -229,7 +229,7 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 </package>
 </packages>
 <symbols>
-<symbol name="KX134">
+<symbol name="KX13X">
 <description>&lt;h3&gt;Kionix KX134 Tri-Axis Accelerometer&lt;/h3&gt;
 &lt;p&gt;The KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined
 accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP)
@@ -258,7 +258,7 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KX134" prefix="U">
+<deviceset name="KX13X" prefix="U">
 <description>&lt;h3&gt;Kionix KX134 Tri-Axis Accelerometer&lt;/h3&gt;
 &lt;p&gt;The KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined
 accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP)
@@ -268,10 +268,10 @@ Back-to-Sleep detection with a high-resolution threshold capability configurable
 down to 15.6 mg, 512-byte buffer that continues to record data even when being
 read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM, and Free fall detection.&lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="KX134" x="0" y="0"/>
+<gate name="G$1" symbol="KX13X" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KX134">
+<device name="-KX134" package="KX13X">
 <connects>
 <connect gate="G$1" pin="!CS" pad="10"/>
 <connect gate="G$1" pin="ADR/SDO" pad="1"/>
@@ -289,6 +289,27 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 <technology name="">
 <attribute name="PROD_ID" value="IC-15486" constant="no"/>
 <attribute name="VALUE" value="KX134" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KX132" package="KX13X">
+<connects>
+<connect gate="G$1" pin="!CS" pad="10"/>
+<connect gate="G$1" pin="ADR/SDO" pad="1"/>
+<connect gate="G$1" pin="GND" pad="8 9"/>
+<connect gate="G$1" pin="INT1" pad="5"/>
+<connect gate="G$1" pin="INT2" pad="6"/>
+<connect gate="G$1" pin="NC" pad="11"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="12"/>
+<connect gate="G$1" pin="SDA/SDI" pad="2"/>
+<connect gate="G$1" pin="TRIG" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="7"/>
+<connect gate="G$1" pin="VDDIO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15721" constant="no"/>
+<attribute name="VALUE" value="KX132" constant="no"/>
 </technology>
 </technologies>
 </device>

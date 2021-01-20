@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -113,10 +113,10 @@ engine. The KX134-1211 accelerometer also features an advanced Wake-Up and
 Back-to-Sleep detection with a high-resolution threshold capability configurable
 down to 15.6 mg, 512-byte buffer that continues to record data even when being
 read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM, and Free fall detection.&lt;/p&gt;</description>
-<pin name="ADDR/SDO" x="-15.24" y="5.08" length="short"/>
-<pin name="SDA/SDI" x="-15.24" y="2.54" length="short"/>
+<pin name="ADDR/SDO" x="-15.24" y="2.54" length="short"/>
+<pin name="SDA/SDI" x="-15.24" y="-2.54" length="short"/>
 <pin name="SCL/SCLK" x="-15.24" y="0" length="short"/>
-<pin name="!CS" x="-15.24" y="-2.54" length="short"/>
+<pin name="!CS" x="-15.24" y="5.08" length="short"/>
 <pin name="VDD" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="GND" x="15.24" y="-5.08" length="short" rot="R180"/>
 <pin name="TRIG" x="15.24" y="-2.54" length="short" rot="R180"/>

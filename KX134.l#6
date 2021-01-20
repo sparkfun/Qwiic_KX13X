@@ -132,7 +132,7 @@ read, as well as embedded engines for orientation, Directional-TapTM/DoubleTapTM
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="KX134">
+<deviceset name="KX134" prefix="U">
 <description>&lt;h3&gt;Kionix KX134 Tri-Axis Accelerometer&lt;/h3&gt;
 &lt;p&gt;The KX134-1211 is a tri-axis ±8g, ±16g, ±32g, or ±64g silicon micromachined
 accelerometer featuring a user-configurable 3-stage Advanced Data Path (ADP)
