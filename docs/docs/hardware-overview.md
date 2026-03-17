@@ -17,7 +17,10 @@ First up let's examine the two accelerometers on the boards, highlight their spe
 * Embedded 512-byte FIFO buffer (continues to record while being read)
 * Digital I²C up to 3.4MHz and Digital SPI up to 10MHz
 
+<figure>
 [![Photo highlighting KX134 IC and KX13x version jumpers](/img/KX13x_Breakout-KX13x.jpg)](/img/KX13x_Breakout-KX13x.jpg)
+<figcaption>Photo highlighting KX134 IC and KX13x version jumpers</figcaption>
+</figure>
 
 :::note
 As these boards both share the same PCB design, a closed solder jumper located below the "right" side Qwiic connector indicates the version (KX132 or KX134). The photo above highlights this solder jumper. This solder jumper does *not* effect the functionality of the board and is purely for identification purposes.
@@ -53,9 +56,10 @@ The KX13x also includes an integrated voltage regulator to maintain consistent p
 
 The KX13x Breakouts' I²C and SPI interface share the same pins so users must select the interface mode by altering the state of the ADR/SDO pin. The ADR jumper sets the state of the ADR/SDO pin (more on that in the Solder Jumpers section). Both breakouts operate in I²C mode by default. We've labeled these shared pins so I²C labels are visible from the front and SPI labels are visible when viewed from the back.
 
-| | |
-| --- | --- |
-| [![Photo highlighting the pinout as viewed from the top.](/img/KX13x_Breakout-Pinout_Top.jpg)](/img/KX13x_Breakout-Pinout_Top.jpg) | [![Photo highlighting the pinout as viewed from the bottom.](/img/KX13x_Breakout-Pinout_Bottom.jpg)](/img/KX13x_Breakout-Pinout_Bottom.jpg) |
+<figure>
+[![Photo highlighting the pinouts of the KX13x boards](/img/kx13x-pinouts.png)](/img/kx13x-pinouts.png)
+<figcaption>Photo highlighting the pinouts of the KX13x boards</figcaption>
+</figure>
 
 ### Qwiic and I²C Interface
 
