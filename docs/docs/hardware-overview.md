@@ -132,4 +132,7 @@ The Power LED jumper (labeled PWR on the board) completes the power LED circuit 
 
 The Triple Axis Accelerometer Breakout - KX13x (Qwiic) matches the standard 1x1" (25.4mm x 25.4mm) dimensions for Qwiic breakouts and has four mounting holes that fit a [4-40 screw](https://www.sparkfun.com/products/10453).
 
+<figure align="center">
 [![Board Dimensions](/img/Qwiic_KX13X-Board_Dimensions.png)](/img/Qwiic_KX13X-Board_Dimensions.png)
+<figcaption>Board Dimensions</figcaption>
+</figure>
