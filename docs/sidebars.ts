@@ -17,6 +17,7 @@ const sidebars: SidebarsConfig = {
     tutorialSidebar: [
         'introduction',
         'hardware-overview',
+        'hardware-assembly'
 
     ]
 };
