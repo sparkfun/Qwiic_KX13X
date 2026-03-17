@@ -8,7 +8,10 @@ The fastest and easiest way to get started using the breakout is using either of
 
 If you are using a Raspberry Pi instead for our Python Package, you'll need a Pi, Qwiic cable and an adapter like the Qwiic Shim or another of our Qwiic-enabled pHATs.
 
+<figure align="center">
 [![Photo showing assembled Qwiic KX13x circuit with RedBoard Qwiic](/img/KX13x_Breakout-RedBoard_Assembly.jpg)](/img/KX13x_Breakout-RedBoard_Assembly.jpg)
+<figcaption>Qwiic KX13x circuit with RedBoard Qwiic</figcaption>
+</figure>
 
 If you would prefer a more secure and permanent connection, you can solder headers or wire to the PTH header on the board. This method is recommended for permanent installations as well as high-g and vibration sensing applications.
 
@@ -18,6 +21,9 @@ If you'd prefer to take advantage of the max output data rate of the KX13x, you'
 
 Along with tools for soldering, you'll need either some hookup wire or headers and jumper wires. Also, the Address (ADR) Jumper must be opened by severing the trace between the "Center" and "Left" pads to switch to SPI mode. After opening this jumper, connect the SDO pin to your controller's SDI/CIPO pin.
 
+<figure align="center">
 [![Photo highlighting the ADR jumper on the KX13x Breakout](/img/KX13x_Breakout-ADR_Jumper.jpg)](/img/KX13x_Breakout-ADR_Jumper.jpg)
+<figcaption>ADR Jumper</figcaption>
+</figure>
 
 With the KX13x Breakout set to SPI mode, solder headers or wire to the PTH header on the board and make the SPI connections with your controller. Remember the KX13x operates at **3.3V** logic so make sure to connect to a board running at the same [logic level](https://learn.sparkfun.com/tutorials/logic-levels) or use a [level shifter](https://www.sparkfun.com/categories/361) to adjust it to a safe voltage.
