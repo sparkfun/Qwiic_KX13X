@@ -17,9 +17,9 @@ First up let's examine the two accelerometers on the boards, highlight their spe
 * Embedded 512-byte FIFO buffer (continues to record while being read)
 * Digital I²C up to 3.4MHz and Digital SPI up to 10MHz
 
-<figure>
+<figure align="center">
 [![Photo highlighting KX134 IC and KX13x version jumpers](/img/KX13x_Breakout-KX13x.jpg)](/img/KX13x_Breakout-KX13x.jpg)
-<figcaption>Photo highlighting KX134 IC and KX13x version jumpers</figcaption>
+<figcaption>KX134 IC and KX13x version jumpers</figcaption>
 </figure>
 
 :::note
@@ -56,16 +56,19 @@ The KX13x also includes an integrated voltage regulator to maintain consistent p
 
 The KX13x Breakouts' I²C and SPI interface share the same pins so users must select the interface mode by altering the state of the ADR/SDO pin. The ADR jumper sets the state of the ADR/SDO pin (more on that in the Solder Jumpers section). Both breakouts operate in I²C mode by default. We've labeled these shared pins so I²C labels are visible from the front and SPI labels are visible when viewed from the back.
 
-<figure>
+<figure alight="center">
 [![Photo highlighting the pinouts of the KX13x boards](/img/kx13x-pinouts.png)](/img/kx13x-pinouts.png)
-<figcaption>Photo highlighting the pinouts of the KX13x boards</figcaption>
+<figcaption>The pinouts of the KX13x boards</figcaption>
 </figure>
 
 ### Qwiic and I²C Interface
 
 As you would expect on a Qwiic breakout, the boards break out the KX134's I²C pins to a pair of Qwiic connectors to easily integrate the board into a Qwiic system. The I²C pins are also routed to a standard 0.1" spaced header for PTH soldering.
 
+<figure align="center">
 [![Photo highlighting the Qwiic connectors and I2C PTH pins.](/img/KX13x_Breakout-I2C.jpg)](/img/KX13x_Breakout-I2C.jpg)
+<figcaption>The Qwiic connectors and I2C PTH pins.</figcaption>
+</figure>
 
 :::note
 The Qwiic interface is great for general use cases on the lower acceleration ranges and for testing the higher acceleration settings but we recommended to solder the connections for long-term and high-acceleration projects to avoid communication issues.
@@ -77,7 +80,10 @@ Communicating via SPI on the Qwiic KX13x is ideal for taking advantage of the ma
 
 The Qwiic KX13x breaks out the SPI interface to the same standard 0.1" spaced header as the I²C pins. As mentioned above, the board ships with the I²C interface enabled by default so to switch to the SPI interface users need to **open** the ADR jumper by severing the trace in between the "Center" and "Left" pads and connect the SDO/ADR pin to SDI/CIPO on your microcontroller.
 
+<figure align="center">
 [![Photo highlighting the SPI PTH pins](/img/KX13x_Breakout-SPI.jpg)](/img/KX13x_Breakout-SPI.jpg)
+<figcaption>SPI PTH pins</figcaption>
+</figure>
 
 ### Interrupt and Trigger Pins
 
@@ -89,15 +95,14 @@ The Trigger pin controls the FIFO buffer. By default, the Qwiic KX13x ties this 
 
 ## Solder Jumpers
 
-:::note
 If you have never worked with solder jumpers and PCB traces before or would like a quick refresher, check out our [How to Work with Solder Jumpers and PCB Traces](https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces) tutorial for detailed instructions and tips.
-:::
 
 The Qwiic KX13x has four jumpers labeled ADR, I2C, TRIG and PWR. In this section we'll cover each jumper's purpose, their default states and how to configure them to alter the functionality of the KX13x Breakouts.
 
-| | |
-| --- | --- |
-| [![Photo highlighting the Power LED solder jumper.](/img/KX13x_Breakout-PWR_Jumper.jpg)](/img/KX13x_Breakout-PWR_Jumper.jpg) | [![Photo highlighting the solder jumpers on the bottom of the board.](/img/KX13x_Breakout-Jumpers_Bottom.jpg)](/img/KX13x_Breakout-Jumpers_Bottom.jpg) |
+<figure align="center">
+[![Solder Jumpers](/img/kx13x-solder-jumpers.png)](/img/kx13x-solder-jumpers.png)
+<figcaption>Solder Jumpers</figcaption>
+</figure>
 
 ### Address (ADR) Jumper
 
