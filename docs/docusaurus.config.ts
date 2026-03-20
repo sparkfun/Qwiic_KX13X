@@ -3,11 +3,10 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // our search keys
-const appKey = process.env.ALGOLIA_APP_KEY;
-const appID = process.env.ALGOLIA_APPID;
-const indexName = process.env.ALGOLIA_INDEX_NAME;
-const assistantId = process.env.ALGOLIA_ASK_AI_ASSISTANT_ID;
-const assistantIndexName = process.env.ALGOLIA_ASK_AI_INDEX_NAME;
+const appKey = process.env.DOCS_ALGOLIA_APP_KEY;
+const appID = process.env.DOCS_ALGOLIA_APPID;
+const indexName = process.env.DOCS_ALGOLIA_INDEX_NAME;
+
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
