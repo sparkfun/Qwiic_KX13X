@@ -17,7 +17,12 @@ const sidebars: SidebarsConfig = {
     tutorialSidebar: [
         'introduction',
         'hardware-overview',
-        'hardware-assembly'
+        'hardware-assembly',
+        'arduino',
+        'python-setup',
+        'python-examples',
+        'troubleshoot',
+        'support'
 
     ]
 };

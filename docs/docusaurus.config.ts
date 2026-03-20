@@ -41,9 +41,9 @@ const config: Config = {
         defaultLocale: 'en',
         locales: ['en'],
     },
-    // plugins: [
-    //     '@docsearch/docusaurus-adapter',
-    // ],
+    plugins: [
+        '@docsearch/docusaurus-adapter',
+    ],
     presets: [
         [
             'classic',
@@ -75,55 +75,29 @@ const config: Config = {
         },
         // ...
 
-        // docsearch: {
-        //     // The application ID provided by Algolia
-        //     appId: appID,
-        //     apiKey: appKey,
-        //     indexName: indexName,
+        docsearch: {
+            // The application ID provided by Algolia
+            appId: appID,
+            apiKey: appKey,
+            indexName: indexName,
 
-        //     // Optional: see doc section below
-        //     contextualSearch: false,
+            // Optional: see doc section below
+            contextualSearch: false,
 
-        //     // Optional: path for search page that enabled by default (`false` to disable it)
-        //     searchPagePath: 'search',
+            // Optional: path for search page that enabled by default (`false` to disable it)
+            searchPagePath: 'search',
 
-        //     // Move to it's own index for now - so don't need this.
-        //     //------------------------------------------------------------------
-        //     // NOTE: If using the overall doc index, set  this facet filter up
-        //     //------------------------------------------------------------------
-        //     // // only search in the SparkFun DataLogger documentation - restrict on the section facet
-        //     // searchParameters: {
-        //     //     facetFilters: ['section:SparkFun_DataLogger'],
-        //     // },
+            // Move to it's own index for now - so don't need this.
+            //------------------------------------------------------------------
+            // NOTE: If using the overall doc index, set  this facet filter up
+            //------------------------------------------------------------------
+            // // only search in the SparkFun DataLogger documentation - restrict on the section facet
+            searchParameters: {
+                facetFilters: ['section:Qwiic_KX13X'],
+            },
 
-        //     // note - using a "markdown" index that is separate from the main documentation index.
-        //     // this is recommended by docsearch
-        //     //
-        //     // March, 2026 - Normal search used facetFilters to key off the section attribute,
-        //     // to limit search results to a specific section. This allows the same overall index
-        //     // to be used for the datalogger.  This is not available for AskAi.
-        //     //
-        //     // see: https://docsearch.algolia.com/docs/api/#askai
-        //     // 
-        //     // It appears - according to the above docs and observation, that the facet filters 
-        //     // are limited to a small set of values. It's an optimization most likely for now.
-        //     ///
-        //     // Sooo - options are to have unique index per doc set - hmmm , or 
-        //     // disabling AskAI for the datalogger - can revisit later.
-        //     //
-        //     // disable for now. Wait to see if this evolves, or we feel we need to support
-        //     // ai at this level - then make a new index.
-        //     // using it's own idex March 2026 -
-        //     askAi: {
-        //         indexName: assistantIndexName,
-        //         assistantId: assistantId,
-        //         apiKey: appKey,
-        //         appId: appID,
-        //         sidePanel: true,
-
-        //     },
-
-        // },
+            // note  - not using AskAI
+        },
 
         navbar: {
             title: 'SparkFun Triple-Axis Accelerometer Breakout - KX13x (Qwiic) Documentation',

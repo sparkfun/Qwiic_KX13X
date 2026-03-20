@@ -1,3 +1,5 @@
 *~
 [._]*.un~
 *.swp
+.docusaurus
+node_modules
