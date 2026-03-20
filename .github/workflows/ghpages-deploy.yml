@@ -33,7 +33,7 @@ jobs:
         env:
           ALGOLIA_APP_KEY: ${{ secrets.DOCS_ALGOLIA_APP_KEY }}
           ALGOLIA_APPID: ${{ secrets.DOCS_ALGOLIA_APPID }}
-          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+          ALGOLIA_INDEX_NAME: ${{ secrets.DOCS_ALGOLIA_INDEX_NAME }}
         run: npm run build
 
       - name: Upload Build Artifact
